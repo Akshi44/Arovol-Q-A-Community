@@ -1,0 +1,72 @@
+
+.users-h1{
+    margin-top: 50px;
+    font-weight: 400;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+.users-p{
+    margin: 0px;
+    font-size: 15px;
+}
+
+.users-list-container{
+    padding: 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* gap: 10px; */
+}
+
+.user{
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.user h5{
+    margin: 10px 0px;
+    padding: 5px 5px;
+    color: #39739d;
+}
+
+.user p{
+    font-size: 14px;
+    color: #323232;
+    line-height: 17px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: black;
+}
+.user h3{
+    padding: 10px 13px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+}
+.user-list-container{
+    padding: 30px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.user-profile-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: black;
+}
+
+.user-profile-link h3{
+    padding: 10px 13px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+}
+
+.user-profile-link h5{
+    margin: 0px 10px;
+}
