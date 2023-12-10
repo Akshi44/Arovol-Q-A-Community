@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import { useDispatch} from 'react-redux';
 // import logo from '../../assests/logo.JPG';
 // import logo from '../../assests/logoblue.png';
-import logo from '../../assests/logo4.png';
+import logo from '../../assests/logoa.png';
 import search from '../../assests/search-solid.svg';
 import Avatar from '../../components/Avatar/Avatar';
 import { useNavigate } from 'react-router-dom';
@@ -37,7 +37,7 @@ const Navbar = () =>
   return ( 
 	<nav className='main-nav'>  
 		<div className="navbar"> 
-			<Link to='/' className='nav-item nav-logo'><img src={logo} alt="logo"/></Link>
+			<Link to='/' className='nav-item nav-logo'><img src={logo} height="42px" width="100px"  alt="logo"/></Link>
 			<Link to='/' className='nav-item nav-btn'>About</Link>
 			<Link to='/' className='nav-item nav-btn'>Products</Link>
 			<Link to='/' className='nav-item nav-btn'>ForTeams</Link>
