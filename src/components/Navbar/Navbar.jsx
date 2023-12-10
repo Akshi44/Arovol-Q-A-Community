@@ -37,7 +37,7 @@ const Navbar = () =>
   return ( 
 	<nav className='main-nav'>  
 		<div className="navbar"> 
-			<Link to='/' className='nav-item nav-logo'><img src={logo} height="42px" width="100px"  alt="logo"/></Link>
+			<Link to='/' className='nav-item nav-logo'><img src={logo} height="40px" width="100px"  alt="logo"/></Link>
 			<Link to='/' className='nav-item nav-btn'>About</Link>
 			<Link to='/' className='nav-item nav-btn'>Products</Link>
 			<Link to='/' className='nav-item nav-btn'>ForTeams</Link>
